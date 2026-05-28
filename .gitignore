@@ -1,14 +1,14 @@
 # Unreal Engine
 Binaries/
 Build/
-DerivedDataCache/
 Intermediate/
 Saved/
+DerivedDataCache/
+.vs/
 *.VC.db
 *.opensdf
 *.opendb
 *.sdf
-*.sln
 *.suo
 *.xcodeproj
 *.xcworkspace
@@ -16,9 +16,14 @@ Saved/
 # Visual Studio
 .vs/
 *.user
-*.lock.json
+*.suo
+
+# Compiled source
+*.exe
+*.dll
+*.lib
+*.pdb
 
 # OS
-.DS_Store
 Thumbs.db
-desktop.ini
+.DS_Store
